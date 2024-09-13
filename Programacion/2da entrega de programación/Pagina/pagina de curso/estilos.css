@@ -1,0 +1,78 @@
+.menu-container {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0;
+    width: calc(100% 0px);
+    background-color: rgb(228, 0, 0);
+    padding: 1px;
+}
+
+.menu-boton {
+    background-color: rgb(228, 0, 0);
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+}
+
+.menu {
+    display: none;
+    text-align: right;
+    clear: both;
+    margin-right: 10px;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-imagen {
+    max-width: 5%; 
+    height: auto; 
+    margin-bottom: 10px; 
+    border-radius: 80px ;
+}
+
+.nombre_esc {
+    color: white; 
+    font-size: 30px; 
+    padding: 20px;
+    float: right;
+    margin-right: 730px
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40; 
+    background-color: #f4f4f4; 
+}
+
+.titles-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Mantiene los títulos alineados verticalmente */
+    margin-top: 150px; /* Margen superior */
+    padding: 0 50px; /* Espacio alrededor */
+    gap: 300px; /* Aumenta la distancia entre los títulos */
+}
+
+
+.left-title, .right-title {
+    border: 2px solid black; /* Borde para encerrar el título en un rectángulo */
+    padding: 20px; /* Espacio dentro del rectángulo */
+    width: 200px; /* Ancho del rectángulo */
+    text-align: center; /* Centra el texto dentro del rectángulo */
+}
+
+

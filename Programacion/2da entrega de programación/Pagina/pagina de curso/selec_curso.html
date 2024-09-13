@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Seleccionar curso</title>
+    <link rel="stylesheet" href="/pagina de curso/estilos.css">
+</head>
+<body>
+
+    <div class="menu-container">
+        <button class="menu-boton" onclick="toggleMenu()">
+            &#9776; Menú
+        </button>
+        <img src="/pagina de inicio/imagenes/photo_2024-09-12_17-12-43.jpg" alt="logo" class="menu-imagen">
+        <span class="nombre_esc">Colegio Provincial Dr Ernesto</span>
+        <div id="menu" class="menu">
+            <a href="/pagina de inicio/pagdeinicio.html">Inicio</a>
+            <a href="/pagina de curso/selec_curso.html">Notas</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script> 
+
+<div class="titles-container">
+    <h2 class="left-title">Tecnica</h2>
+    <h2 class="right-title">Bachiller</h2>
+</div>
+
+
+</body>
+</html>
