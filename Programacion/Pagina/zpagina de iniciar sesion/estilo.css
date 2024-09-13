@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #c71212;
+    padding: 10px 20px;
+    border-bottom: 2px solid #c71212;
+}
+
+.logo {
+    width: 60px; 
+    height: auto;
+    margin-right: 15px;
+    border-radius: 80px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #000000;
+}
+
+
+.registro-container {
+    margin: 30px auto; /* Centra el contenedor verticalmente */
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Asegura un buen contraste */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registro-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.registro-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+.registro-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c71212;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.registro-form button:hover {
+    background-color: #c92c2c;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
